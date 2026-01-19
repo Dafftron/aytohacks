@@ -1,0 +1,28 @@
+# Excel files (datos sensibles)
+*.xlsx
+
+# Logs
+*.log
+*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.eml
+
+# Entornos virtuales
+venv/
+env/
+ENV/
