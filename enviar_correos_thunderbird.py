@@ -10,16 +10,12 @@ import time
 import os
 from datetime import datetime
 import urllib.parse
+from config import (EXCEL_TOLEDO_COMPLETO, LOG_ENVIOS, PDF_ADJUNTO,
+                    TIEMPO_ENTRE_ENVIOS, REMITENTE, ASUNTO)
 
-# Configuración
-EXCEL_FILE = 'D:/Aytohacks/Toledo_Completo_Final.xlsx'
-LOG_FILE = 'D:/Aytohacks/envios_log.txt'
-TIEMPO_ENTRE_ENVIOS = 300  # 5 minutos en segundos (300)
-PDF_ADJUNTO = 'D:/Tecnohita/Comercial/Equipamiento Astroturismo 2026.pdf'
-
-# Datos del correo
-ASUNTO = 'Equipamiento para astroturismo en espacios públicos y naturales'
-REMITENTE = 'david@tecnohita.com'
+# Usar las constantes del config
+EXCEL_FILE = EXCEL_TOLEDO_COMPLETO
+LOG_FILE = LOG_ENVIOS
 
 def crear_cuerpo_email(nombre_ayuntamiento):
     """Crea el cuerpo del email personalizado para cada ayuntamiento"""

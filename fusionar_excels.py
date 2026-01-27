@@ -1,8 +1,10 @@
 import pandas as pd
+import os
+from config import DATOS_DIR, EXCEL_TOLEDO_FUSIONADO
 
-# Leer ambos archivos
-df_completo = pd.read_excel('D:/Tecnohita/Comercial/Direcciones_Toledo_completo.xlsx')
-df_comparativa = pd.read_excel('D:/Tecnohita/Comercial/comparativa_emails_toledo.xlsx')
+# Leer ambos archivos (ajusta estas rutas según donde estén tus archivos fuente)
+df_completo = pd.read_excel(os.path.join(DATOS_DIR, 'Direcciones_Toledo_completo.xlsx'))
+df_comparativa = pd.read_excel(os.path.join(DATOS_DIR, 'comparativa_emails_toledo.xlsx'))
 
 print(f"Archivo completo: {len(df_completo)} filas")
 print(f"Archivo comparativa: {len(df_comparativa)} filas")
@@ -37,8 +39,8 @@ df_fusionado['Origen_Email_2'] = ''
 df_fusionado['Origen_Email_3'] = ''
 
 # Guardar el archivo fusionado
-output_path = 'D:/Aytohacks/Toledo_Fusionado.xlsx'
-df_fusionado.to_excel(output_path, index=False)
+df_fusionado.to_excel(EXCEL_TOLEDO_FUSIONADO, index=False)
+output_path = EXCEL_TOLEDO_FUSIONADO
 
 print(f"\nArchivo fusionado guardado en: {output_path}")
 print(f"Total de filas: {len(df_fusionado)}")

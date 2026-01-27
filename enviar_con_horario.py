@@ -20,6 +20,14 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
+# Importar configuración
+from config import (
+    PROVINCIAS_DIR, DATOS_DIR, LOGS_DIR, PDF_ADJUNTO,
+    SMTP_SERVER, SMTP_PORT, IMAP_SERVER, IMAP_PORT,
+    EMAIL_USER, EMAIL_PASS, ASUNTO, REMITENTE_NOMBRE,
+    TIEMPO_ENTRE_ENVIOS
+)
+
 # ============================================
 # CONFIGURACIÓN
 # ============================================
@@ -28,45 +36,28 @@ from email import encoders
 if len(sys.argv) < 2:
     print("Uso: python enviar_con_horario.py <provincia> [cantidad]")
     print("Provincias disponibles:")
-    for f in os.listdir('D:/Aytohacks/provincias'):
+    for f in os.listdir(PROVINCIAS_DIR):
         if f.endswith('.xlsx') and not f.startswith('_'):
             print(f"  - {f.replace('.xlsx', '')}")
     sys.exit(1)
 
 PROVINCIA = sys.argv[1]
-CANTIDAD = int(sys.argv[2]) if len(sys.argv) > 2 else 999  # Por defecto todos
+CANTIDAD = int(sys.argv[2]) if len(sys.argv) > 2 else 999
 
 # Archivo Excel de la provincia
-# Para Toledo usamos el reorganizado con 204 municipios
 if PROVINCIA.lower() == 'toledo':
-    EXCEL_FILE = f'D:/Aytohacks/Toledo_Reorganizado.xlsx'
+    EXCEL_FILE = os.path.join(DATOS_DIR, 'Toledo_Completo_Final.xlsx')
 else:
-    EXCEL_FILE = f'D:/Aytohacks/provincias/{PROVINCIA}.xlsx'
+    EXCEL_FILE = os.path.join(PROVINCIAS_DIR, f'{PROVINCIA}.xlsx')
 
-LOG_FILE = f'D:/Aytohacks/envios_log_{PROVINCIA}.txt'
-PDF_ADJUNTO = 'D:/Aytohacks/Equipamiento Astroturismo 2026.pdf'
+LOG_FILE = os.path.join(LOGS_DIR, f'envios_log_{PROVINCIA}.txt')
 
 # Carpeta IMAP para guardar enviados
 CARPETA_ENVIADOS = f'INBOX.Sent.{PROVINCIA}'
 
-# Tiempo entre envíos (en segundos) - 3 minutos
-TIEMPO_ENTRE_ENVIOS = 180
-
 # Horario permitido: 9:00 - 14:30
 HORA_INICIO = dt_time(9, 0)
 HORA_FIN = dt_time(14, 30)
-
-# Configuración del servidor
-SMTP_SERVER = 'mail.fundacionastrohita.org'
-SMTP_PORT = 465
-IMAP_SERVER = 'mail.fundacionastrohita.org'
-IMAP_PORT = 993
-EMAIL_USER = 'david@tecnohita.com'
-EMAIL_PASS = 'Indiana2025'
-
-# Datos del correo
-ASUNTO = 'Equipamiento para astroturismo en espacios públicos y naturales'
-REMITENTE_NOMBRE = 'David Organero'
 
 # ============================================
 

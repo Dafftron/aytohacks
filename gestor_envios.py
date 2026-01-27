@@ -12,8 +12,9 @@ import json
 import os
 from datetime import datetime, time as dt_time
 
-ESTADO_FILE = 'D:/Aytohacks/estado_campana.json'
-PROVINCIAS_DIR = 'D:/Aytohacks/provincias'
+from config import ESTADO_CAMPANA, PROVINCIAS_DIR, DATOS_DIR, BASE_DIR
+
+ESTADO_FILE = ESTADO_CAMPANA
 
 def cargar_estado():
     """Carga el estado actual de la campaña"""
@@ -37,9 +38,10 @@ def obtener_estado_provincia(nombre_provincia):
     """Obtiene el estado actual de una provincia desde su Excel"""
     archivo = f'{PROVINCIAS_DIR}/{nombre_provincia}.xlsx'
 
-    # Caso especial para Toledo (usar el reorganizado)
+    import os
+    # Caso especial para Toledo (usar el reorganizado o completo)
     if nombre_provincia.lower() == 'toledo':
-        archivo = 'D:/Aytohacks/Toledo_Reorganizado.xlsx'
+        archivo = os.path.join(DATOS_DIR, 'Toledo_Completo_Final.xlsx')
 
     if not os.path.exists(archivo):
         return None

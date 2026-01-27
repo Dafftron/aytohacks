@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 import unicodedata
 import re
 import time
+from config import EXCEL_TOLEDO_FUSIONADO, EXCEL_TOLEDO_PROGRESO, EXCEL_TOLEDO_COMPLETO
 
 def normalizar_nombre_url(nombre):
     """Normaliza el nombre del municipio para usarlo en URL"""
@@ -84,7 +85,7 @@ def buscar_ayuntamiento(nombre_municipio):
 
 # Cargar Excel fusionado
 print("Cargando Excel fusionado...")
-df = pd.read_excel('D:/Aytohacks/Toledo_Fusionado.xlsx')
+df = pd.read_excel(EXCEL_TOLEDO_FUSIONADO)
 
 # Agregar columnas nuevas si no existen
 if 'Email_TodosAyto_1' not in df.columns:
@@ -148,7 +149,7 @@ for index in range(len(df)):
     # Guardar progreso cada 20 ayuntamientos
     if (index + 1) % 20 == 0:
         print(f"\n  >>> GUARDANDO PROGRESO ({index+1}/{total}) <<<")
-        df.to_excel('D:/Aytohacks/Toledo_Completo_Progreso.xlsx', index=False)
+        df.to_excel(EXCEL_TOLEDO_PROGRESO, index=False)
         print(f"  >>> Encontrados: {encontrados}, No encontrados: {no_encontrados} <<<\n")
 
     # Pausa de 2 segundos entre búsquedas
@@ -158,12 +159,12 @@ for index in range(len(df)):
 print("\n" + "="*80)
 print("GUARDANDO ARCHIVO FINAL...")
 print("="*80)
-df.to_excel('D:/Aytohacks/Toledo_Completo_Final.xlsx', index=False)
+df.to_excel(EXCEL_TOLEDO_COMPLETO, index=False)
 
 print("\n" + "="*80)
 print("PROCESO COMPLETADO")
 print("="*80)
-print(f"Archivo guardado: D:/Aytohacks/Toledo_Completo_Final.xlsx")
+print(f"Archivo guardado: {EXCEL_TOLEDO_COMPLETO}")
 print(f"\nEstadisticas finales:")
 print(f"  Total procesados: {total}")
 print(f"  Encontrados: {encontrados} ({encontrados*100/total:.1f}%)")

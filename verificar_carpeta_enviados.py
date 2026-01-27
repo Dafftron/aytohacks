@@ -12,13 +12,16 @@ from email.header import decode_header
 import re
 from datetime import datetime
 
+# Importar configuración
+from config import (
+    IMAP_SERVER, IMAP_PORT, EMAIL_USER, EMAIL_PASS,
+    DATOS_DIR
+)
+import os
+
 # Configuración
-IMAP_SERVER = 'mail.fundacionastrohita.org'
-IMAP_PORT = 993
-EMAIL_USER = 'david@tecnohita.com'
-EMAIL_PASS = 'Indiana2025'
 CARPETA_ENVIADOS = 'INBOX.Sent.Toledo'
-EXCEL_FILE = 'D:/Aytohacks/Toledo_Reorganizado.xlsx'
+EXCEL_FILE = os.path.join(DATOS_DIR, 'Toledo_Completo_Final.xlsx')
 
 print("="*60)
 print("VERIFICANDO CARPETA IMAP DE ENVIADOS")
