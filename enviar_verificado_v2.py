@@ -280,9 +280,9 @@ def revisar_rebotes():
                     mask = df[col].astype(str).str.lower().str.strip() == email_rebotado
                     if mask.any():
                         for idx in df[mask].index:
-                            if pd.isna(df.at[idx, 'Rebotado']) or not str(df.at[idx, 'Rebotado']).strip():
-                                df.at[idx, 'Rebotado'] = 'REBOTADO: Email no entregado'
-                                df.at[idx, 'Enviado'] = ''
+                            if pd.isna(df.at[idx, 'Email_Rebotado']) or not str(df.at[idx, 'Email_Rebotado']).strip():
+                                df.at[idx, 'Email_Rebotado'] = 'REBOTADO: Email no entregado'
+                                df.at[idx, 'Email_Enviado'] = ''
                                 escribir_log(f"  REBOTE detectado: {email_rebotado}")
                                 rebotes_marcados += 1
 
@@ -385,16 +385,11 @@ def enviar_email(destinatarios, asunto, nombre_ayuntamiento, provincia, adjunto=
 
 def obtener_email(row, solo_scrapeados=False):
     """Obtiene el mejor email disponible del municipio"""
-    if solo_scrapeados:
-        col = 'Email_Scrapeado_1'
+    # Usar Email_1, Email_2, Email_3
+    for col in ['Email_1', 'Email_2', 'Email_3']:
         if col in row.index and pd.notna(row[col]) and str(row[col]).strip() and '@' in str(row[col]):
             return str(row[col]).strip().lower()
-        return None
-    else:
-        for col in ['Email_FEMPCLM', 'Email_Scrapeado_1', 'email', 'Email_Scrapeado_2']:
-            if col in row.index and pd.notna(row[col]) and str(row[col]).strip() and '@' in str(row[col]):
-                return str(row[col]).strip().lower()
-        return None
+    return None
 
 def main():
     if len(sys.argv) < 2:
@@ -427,15 +422,15 @@ def main():
     df = pd.read_excel(EXCEL_MAESTRO, engine='openpyxl')
 
     # Filtrar por provincia
-    df_prov = df[df['PROV_nombre'].str.contains(provincia, case=False, na=False)].copy()
+    df_prov = df[df['Provincia'].str.contains(provincia, case=False, na=False)].copy()
     escribir_log(f"Municipios en {provincia}: {len(df_prov)}")
 
     # Filtrar pendientes
     pendientes = []
     for idx, row in df_prov.iterrows():
-        if pd.notna(row.get('Rebotado')) and str(row.get('Rebotado')).strip():
+        if pd.notna(row.get('Email_Rebotado')) and str(row.get('Email_Rebotado')).strip():
             continue
-        if pd.notna(row.get('Enviado')) and str(row.get('Enviado')).strip():
+        if pd.notna(row.get('Email_Enviado')) and str(row.get('Email_Enviado')).strip():
             continue
 
         email = obtener_email(row, solo_scrapeados)
@@ -457,7 +452,7 @@ def main():
     total_invalidos = 0
 
     for i, (idx, row, email) in enumerate(pendientes, 1):
-        municipio_raw = row['NOMBRE']
+        municipio_raw = row['Municipio']
         municipio = normalizar_nombre(municipio_raw)
 
         escribir_log(f"[{i}/{len(pendientes)}] {municipio} -> {email}")
@@ -468,7 +463,7 @@ def main():
 
         if not valido:
             escribir_log(f"  EMAIL INVALIDO: {motivo}")
-            df.at[idx, 'Rebotado'] = f'VERIFICACION: {motivo}'
+            df.at[idx, 'Email_Rebotado'] = f'VERIFICACION: {motivo}'
             df.to_excel(EXCEL_MAESTRO, index=False)
             total_invalidos += 1
             continue
@@ -479,7 +474,7 @@ def main():
         if enviar_email([email], ASUNTO, municipio, provincia, PDF_ADJUNTO):
             escribir_log(f"  ENVIADO OK")
             total_enviados += 1
-            df.at[idx, 'Enviado'] = datetime.now().strftime('%Y-%m-%d %H:%M')
+            df.at[idx, 'Email_Enviado'] = datetime.now().strftime('%Y-%m-%d %H:%M')
             df.to_excel(EXCEL_MAESTRO, index=False)
 
             # Cada 10 envíos: revisar rebotes y hacer commit

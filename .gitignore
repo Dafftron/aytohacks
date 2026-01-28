@@ -1,5 +1,7 @@
 # Excel files (datos sensibles)
 *.xlsx
+# PERO el maestro SI se guarda (tiene el progreso)
+!datos/Espana_Maestro_Completo.xlsx
 
 # Logs
 *.log
