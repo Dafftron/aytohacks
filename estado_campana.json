@@ -1,16 +1,16 @@
 {
-  "ultima_actualizacion": "2026-01-28 21:05",
-  "total_emails_enviados": 76,
+  "ultima_actualizacion": "2026-01-28 21:35",
+  "total_emails_enviados": 86,
   "provincias_con_envios": 2,
   "provincias_completadas": [
     "Albacete"
   ],
   "provincias_en_progreso": {
-    "Barcelona": 10
+    "Barcelona": 20
   },
   "detalle_por_provincia": {
     "Albacete": 66,
-    "Barcelona": 10
+    "Barcelona": 20
   },
-  "progreso_porcentaje": 2.63
+  "progreso_porcentaje": 2.97
 }
