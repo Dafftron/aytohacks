@@ -1,16 +1,16 @@
 {
-  "ultima_actualizacion": "2026-01-28 16:50",
-  "total_emails_enviados": 96,
+  "ultima_actualizacion": "2026-01-28 17:21",
+  "total_emails_enviados": 106,
   "provincias_con_envios": 2,
   "provincias_completadas": [
     "Albacete"
   ],
   "provincias_en_progreso": {
-    "A_Coruna": 30
+    "A_Coruna": 40
   },
   "detalle_por_provincia": {
     "Albacete": 66,
-    "A_Coruna": 30
+    "A_Coruna": 40
   },
-  "progreso_porcentaje": 3.32
+  "progreso_porcentaje": 3.66
 }
