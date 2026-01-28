@@ -1,16 +1,16 @@
 {
-  "ultima_actualizacion": "2026-01-28 14:02",
-  "total_emails_enviados": 96,
+  "ultima_actualizacion": "2026-01-28 14:32",
+  "total_emails_enviados": 106,
   "provincias_con_envios": 2,
   "provincias_completadas": [
     "Albacete"
   ],
   "provincias_en_progreso": {
-    "Guadalajara": 30
+    "Guadalajara": 40
   },
   "detalle_por_provincia": {
-    "Guadalajara": 30,
+    "Guadalajara": 40,
     "Albacete": 66
   },
-  "progreso_porcentaje": 3.32
+  "progreso_porcentaje": 3.66
 }
