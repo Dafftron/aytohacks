@@ -1,16 +1,16 @@
 {
-  "ultima_actualizacion": "2026-01-28 18:19",
-  "total_emails_enviados": 76,
+  "ultima_actualizacion": "2026-01-28 18:49",
+  "total_emails_enviados": 86,
   "provincias_con_envios": 2,
   "provincias_completadas": [
     "Albacete"
   ],
   "provincias_en_progreso": {
-    "Cuenca": 10
+    "Cuenca": 20
   },
   "detalle_por_provincia": {
-    "Cuenca": 10,
+    "Cuenca": 20,
     "Albacete": 66
   },
-  "progreso_porcentaje": 2.63
+  "progreso_porcentaje": 2.97
 }
