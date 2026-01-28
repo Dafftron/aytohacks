@@ -1,16 +1,16 @@
 {
-  "ultima_actualizacion": "2026-01-28 19:26",
-  "total_emails_enviados": 76,
+  "ultima_actualizacion": "2026-01-28 19:57",
+  "total_emails_enviados": 86,
   "provincias_con_envios": 2,
   "provincias_completadas": [
     "Albacete"
   ],
   "provincias_en_progreso": {
-    "Zaragoza": 10
+    "Zaragoza": 20
   },
   "detalle_por_provincia": {
     "Albacete": 66,
-    "Zaragoza": 10
+    "Zaragoza": 20
   },
-  "progreso_porcentaje": 2.63
+  "progreso_porcentaje": 2.97
 }
