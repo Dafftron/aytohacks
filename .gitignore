@@ -1,11 +1,18 @@
 # Excel files (datos sensibles)
 *.xlsx
-# PERO el maestro SI se guarda (tiene el progreso)
+# PERO estos SI se guardan (tienen el progreso)
 !datos/Espana_Maestro_Completo.xlsx
+!provincias/*.xlsx
 
-# Logs
+# Logs (no se guardan por ser muy grandes)
 *.log
-*.txt
+
+# PERO estos archivos de registro SI se guardan
+!historial_enviados.csv
+!pendientes_scraping.csv
+!PENDIENTES.md
+!PROGRESO.md
+!estado_campana.json
 
 # Python
 __pycache__/
