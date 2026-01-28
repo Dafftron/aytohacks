@@ -1,7 +1,7 @@
 {
-  "ultima_actualizacion": "2026-01-27 17:41",
-  "total_emails_enviados": 577,
-  "provincias_con_envios": 5,
+  "ultima_actualizacion": "2026-01-28 09:43",
+  "total_emails_enviados": 587,
+  "provincias_con_envios": 6,
   "provincias_completadas": [
     "Toledo",
     "Ciudad_Real",
@@ -9,14 +9,16 @@
     "Almeria"
   ],
   "provincias_en_progreso": {
+    "Albacete": 10,
     "Cadiz": 34
   },
   "detalle_por_provincia": {
     "Toledo": 236,
     "Ciudad_Real": 96,
     "Cuenca": 141,
+    "Albacete": 10,
     "Cadiz": 34,
     "Almeria": 70
   },
-  "progreso_porcentaje": 19.94
+  "progreso_porcentaje": 20.29
 }
