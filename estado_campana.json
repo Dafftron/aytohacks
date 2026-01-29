@@ -1,16 +1,16 @@
 {
-  "ultima_actualizacion": "2026-01-29 13:55",
-  "total_emails_enviados": 96,
+  "ultima_actualizacion": "2026-01-29 14:26",
+  "total_emails_enviados": 106,
   "provincias_con_envios": 2,
   "provincias_completadas": [
     "Albacete"
   ],
   "provincias_en_progreso": {
-    "Valencia": 30
+    "Valencia": 40
   },
   "detalle_por_provincia": {
     "Albacete": 66,
-    "Valencia": 30
+    "Valencia": 40
   },
-  "progreso_porcentaje": 3.32
+  "progreso_porcentaje": 3.66
 }
