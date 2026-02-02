@@ -1,16 +1,16 @@
 {
-  "ultima_actualizacion": "2026-02-02 18:46",
-  "total_emails_enviados": 96,
+  "ultima_actualizacion": "2026-02-02 19:17",
+  "total_emails_enviados": 106,
   "provincias_con_envios": 2,
   "provincias_completadas": [
     "Albacete"
   ],
   "provincias_en_progreso": {
-    "Asturias": 30
+    "Asturias": 40
   },
   "detalle_por_provincia": {
     "Albacete": 66,
-    "Asturias": 30
+    "Asturias": 40
   },
-  "progreso_porcentaje": 3.32
+  "progreso_porcentaje": 3.66
 }
