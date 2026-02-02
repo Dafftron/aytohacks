@@ -2747,3 +2747,76 @@
 [2026-02-02 10:34:40] IMAP limpiado: 67 emails de Sevilla
 [2026-02-02 10:34:40]   Actualizando estado completo...
 [2026-02-02 10:34:41]   Estado actualizado correctamente
+[2026-02-02 10:34:43]   GIT: Commit y push OK - Estado actualizado en GitHub
+[2026-02-02 11:02:01] ============================================================
+[2026-02-02 11:02:01] ENVIANDO A ALMERIA (con verificacion previa)
+[2026-02-02 11:02:01] Verificacion: SI | Modo: TODOS
+[2026-02-02 11:02:01] ============================================================
+[2026-02-02 11:02:01] Municipios en Almeria: 70
+[2026-02-02 11:02:01] Pendientes con email: 1
+[2026-02-02 11:02:01] Procesando: 1 municipios
+[2026-02-02 11:02:01] [1/1] Mojonera, La -> alcaldia@mojonera.es
+[2026-02-02 11:02:01]   Verificando email...
+[2026-02-02 11:02:02]   EMAIL INVALIDO: SIN_MX
+[2026-02-02 11:02:02] ============================================================
+[2026-02-02 11:02:02] RESUMEN: 0 enviados, 1 invalidos
+[2026-02-02 11:02:02] ============================================================
+[2026-02-02 11:02:09] ============================================================
+[2026-02-02 11:02:09] ENVIANDO A CUENCA (con verificacion previa)
+[2026-02-02 11:02:09] Verificacion: SI | Modo: TODOS
+[2026-02-02 11:02:09] ============================================================
+[2026-02-02 11:02:10] Municipios en Cuenca: 89
+[2026-02-02 11:02:10] Pendientes con email: 32
+[2026-02-02 11:02:10] Procesando: 32 municipios
+[2026-02-02 11:02:10] [1/32] Almonacid del Marquesado -> aytoalmonacid@gmail.com
+[2026-02-02 11:02:10]   Verificando email...
+[2026-02-02 11:02:10]   Email OK (OK)
+[2026-02-02 11:02:11]   ENVIADO OK
+[2026-02-02 11:02:12]   Esperando 3 minutos...
+[2026-02-02 11:05:12] [2/32] Altarejos -> altarejos@dipucuenca.es
+[2026-02-02 11:05:12]   Verificando email...
+[2026-02-02 11:05:12]   Email OK (OK)
+[2026-02-02 11:05:14]   ENVIADO OK
+[2026-02-02 11:05:14]   Esperando 3 minutos...
+[2026-02-02 11:08:14] [3/32] Arandilla del Arroyo -> ayuntamientoarandillaarroyo@gmail.com
+[2026-02-02 11:08:14]   Verificando email...
+[2026-02-02 11:08:15]   Email OK (OK)
+[2026-02-02 11:08:16]   ENVIADO OK
+[2026-02-02 11:08:16]   Esperando 3 minutos...
+[2026-02-02 11:11:16] [4/32] Cuenca -> alcaldia@cuenca.es
+[2026-02-02 11:11:16]   Verificando email...
+[2026-02-02 11:11:17]   Email OK (OK)
+[2026-02-02 11:11:18]   ENVIADO OK
+[2026-02-02 11:11:18]   Esperando 3 minutos...
+[2026-02-02 11:14:18] [5/32] Tarancón -> ayuntamiento@tarancon.es
+[2026-02-02 11:14:18]   Verificando email...
+[2026-02-02 11:14:29]   Email OK (ERROR)
+[2026-02-02 11:14:29]   ENVIADO OK
+[2026-02-02 11:14:30]   Esperando 3 minutos...
+[2026-02-02 11:17:30] [6/32] Quintanar del Rey -> alcalde@quintanardelrey.es
+[2026-02-02 11:17:30]   Verificando email...
+[2026-02-02 11:17:30]   Email OK (OK)
+[2026-02-02 11:17:31]   ENVIADO OK
+[2026-02-02 11:17:32]   Esperando 3 minutos...
+[2026-02-02 11:20:32] [7/32] San Clemente -> sanclemente@sanclemente.es
+[2026-02-02 11:20:32]   Verificando email...
+[2026-02-02 11:20:32]   Email OK (OK)
+[2026-02-02 11:20:33]   ENVIADO OK
+[2026-02-02 11:20:34]   Esperando 3 minutos...
+[2026-02-02 11:23:34] [8/32] Pedroñeras, Las -> info@laspedroneras.es
+[2026-02-02 11:23:34]   Verificando email...
+[2026-02-02 11:23:44]   Email OK (ERROR)
+[2026-02-02 11:23:46]   ENVIADO OK
+[2026-02-02 11:23:46]   Esperando 3 minutos...
+[2026-02-02 11:26:46] [9/32] Motilla del Palancar -> ayuntamiento@motilla.com
+[2026-02-02 11:26:46]   Verificando email...
+[2026-02-02 11:26:47]   Email OK (DUDOSO_554)
+[2026-02-02 11:26:48]   ENVIADO OK
+[2026-02-02 11:26:48]   Esperando 3 minutos...
+[2026-02-02 11:29:48] [10/32] Mota del Cuervo -> ayuntamiento@motadelcuervo.es
+[2026-02-02 11:29:48]   Verificando email...
+[2026-02-02 11:29:48]   Email OK (OK)
+[2026-02-02 11:29:49]   ENVIADO OK
+[2026-02-02 11:29:50]   Revisando bandeja de rebotes...
+[2026-02-02 11:29:50]   Actualizando estado completo...
+[2026-02-02 11:29:52]   Estado actualizado correctamente
