@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-02-04 14:14",
-  "total_emails_enviados": 701,
+  "ultima_actualizacion": "2026-02-04 14:44",
+  "total_emails_enviados": 711,
   "provincias_con_envios": 13,
   "provincias_completadas": [
     "Albacete",
@@ -25,7 +25,7 @@
     "Almeria": 68,
     "Asturias": 46,
     "Avila": 41,
-    "Badajoz": 57,
+    "Badajoz": 67,
     "Barcelona": 79,
     "Cadiz": 37,
     "Cuenca": 52,
@@ -34,5 +34,5 @@
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 24.23
+  "progreso_porcentaje": 24.58
 }
