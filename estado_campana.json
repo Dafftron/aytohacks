@@ -1,7 +1,7 @@
 {
-  "ultima_actualizacion": "2026-02-06 09:39",
-  "total_emails_enviados": 778,
-  "provincias_con_envios": 14,
+  "ultima_actualizacion": "2026-02-06 10:08",
+  "total_emails_enviados": 786,
+  "provincias_con_envios": 15,
   "provincias_completadas": [
     "Albacete",
     "Almeria",
@@ -17,6 +17,7 @@
     "A_Coruna": 46,
     "Asturias": 46,
     "Avila": 41,
+    "Caceres": 10,
     "Cadiz": 37,
     "Zaragoza": 30
   },
@@ -26,15 +27,16 @@
     "Almeria": 68,
     "Asturias": 46,
     "Avila": 41,
-    "Badajoz": 74,
+    "Badajoz": 73,
     "Barcelona": 79,
     "Burgos": 60,
+    "Caceres": 10,
     "Cadiz": 37,
-    "Cuenca": 52,
+    "Cuenca": 51,
     "Guadalajara": 54,
     "Sevilla": 66,
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 26.89
+  "progreso_porcentaje": 27.17
 }
