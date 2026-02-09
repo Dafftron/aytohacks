@@ -1,12 +1,12 @@
 # 📊 PROGRESO DE LA CAMPAÑA AYTOHACKS
 
-**Última actualización:** 09/02/2026 14:48
+**Última actualización:** 09/02/2026 14:52
 
 ---
 
 ## 🎯 RESUMEN GENERAL
 
-- **Total emails enviados:** 991
+- **Total emails enviados:** 992
 - **Provincias completadas:** 12
 - **Provincias en progreso:** 5
 - **Provincias pendientes:** 35
@@ -17,7 +17,7 @@
 ## ✅ PROVINCIAS COMPLETADAS (12)
 
 - **Barcelona**: 79 emails ✅
-- **Castellon**: 77 emails ✅
+- **Castellon**: 78 emails ✅
 - **Caceres**: 74 emails ✅
 - **Badajoz**: 73 emails ✅
 - **Almeria**: 68 emails ✅
@@ -49,7 +49,7 @@
 
 ### Top 5 Provincias
 1. **Barcelona**: 79 emails
-2. **Castellon**: 77 emails
+2. **Castellon**: 78 emails
 3. **Caceres**: 74 emails
 4. **Badajoz**: 73 emails
 5. **Almeria**: 68 emails
