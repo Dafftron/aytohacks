@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-02-09 18:23",
-  "total_emails_enviados": 1062,
+  "ultima_actualizacion": "2026-02-09 18:54",
+  "total_emails_enviados": 1072,
   "provincias_con_envios": 18,
   "provincias_completadas": [
     "Albacete",
@@ -38,11 +38,11 @@
     "Cantabria": 64,
     "Castellon": 78,
     "Cuenca": 51,
-    "Girona": 70,
+    "Girona": 80,
     "Guadalajara": 54,
     "Sevilla": 66,
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 36.71
+  "progreso_porcentaje": 37.05
 }
