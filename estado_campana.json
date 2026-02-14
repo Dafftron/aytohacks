@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-02-14 19:37",
-  "total_emails_enviados": 1281,
+  "ultima_actualizacion": "2026-02-14 20:07",
+  "total_emails_enviados": 1291,
   "provincias_con_envios": 21,
   "provincias_completadas": [
     "Albacete",
@@ -45,10 +45,10 @@
     "Guadalajara": 54,
     "Huesca": 69,
     "Leon": 80,
-    "Lleida": 60,
+    "Lleida": 70,
     "Sevilla": 66,
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 44.28
+  "progreso_porcentaje": 44.62
 }
