@@ -1,7 +1,7 @@
 {
-  "ultima_actualizacion": "2026-02-14 20:08",
-  "total_emails_enviados": 1291,
-  "provincias_con_envios": 21,
+  "ultima_actualizacion": "2026-02-26 09:08",
+  "total_emails_enviados": 1293,
+  "provincias_con_envios": 22,
   "provincias_completadas": [
     "Albacete",
     "Almeria",
@@ -25,6 +25,7 @@
     "Asturias": 46,
     "Avila": 41,
     "Cadiz": 37,
+    "Palencia": 2,
     "Zaragoza": 30
   },
   "detalle_por_provincia": {
@@ -46,9 +47,10 @@
     "Huesca": 69,
     "Leon": 80,
     "Lleida": 70,
+    "Palencia": 2,
     "Sevilla": 66,
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 44.62
+  "progreso_porcentaje": 44.69
 }
