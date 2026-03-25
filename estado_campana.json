@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-03-25 13:03",
-  "total_emails_enviados": 1440,
+  "ultima_actualizacion": "2026-03-25 13:34",
+  "total_emails_enviados": 1450,
   "provincias_con_envios": 24,
   "provincias_completadas": [
     "Albacete",
@@ -27,7 +27,7 @@
     "Asturias": 46,
     "Avila": 41,
     "Cadiz": 37,
-    "Segovia": 29,
+    "Segovia": 39,
     "Zaragoza": 30
   },
   "detalle_por_provincia": {
@@ -51,10 +51,10 @@
     "Lleida": 70,
     "Palencia": 59,
     "Salamanca": 61,
-    "Segovia": 29,
+    "Segovia": 39,
     "Sevilla": 66,
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 49.78
+  "progreso_porcentaje": 50.12
 }
