@@ -1,7 +1,7 @@
 {
-  "ultima_actualizacion": "2026-03-26 14:15",
-  "total_emails_enviados": 1609,
-  "provincias_con_envios": 26,
+  "ultima_actualizacion": "2026-03-26 16:23",
+  "total_emails_enviados": 1619,
+  "provincias_con_envios": 27,
   "provincias_completadas": [
     "Albacete",
     "Almeria",
@@ -30,6 +30,7 @@
     "Avila": 41,
     "Cadiz": 37,
     "Soria": 47,
+    "Teruel": 10,
     "Zaragoza": 30
   },
   "detalle_por_provincia": {
@@ -57,8 +58,9 @@
     "Sevilla": 66,
     "Soria": 47,
     "Tarragona": 79,
+    "Teruel": 10,
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 55.62
+  "progreso_porcentaje": 55.96
 }
