@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-04-07 14:46",
-  "total_emails_enviados": 1758,
+  "ultima_actualizacion": "2026-04-07 15:05",
+  "total_emails_enviados": 1764,
   "provincias_con_envios": 28,
   "provincias_completadas": [
     "Albacete",
@@ -60,9 +60,9 @@
     "Soria": 47,
     "Tarragona": 79,
     "Teruel": 81,
-    "Toledo": 68,
+    "Toledo": 74,
     "Valencia": 59,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 60.77
+  "progreso_porcentaje": 60.97
 }
