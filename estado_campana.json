@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-04-21 16:56",
-  "total_emails_enviados": 1951,
+  "ultima_actualizacion": "2026-04-21 17:27",
+  "total_emails_enviados": 1961,
   "provincias_con_envios": 31,
   "provincias_completadas": [
     "Albacete",
@@ -30,7 +30,7 @@
   ],
   "provincias_en_progreso": {
     "A_Coruna": 46,
-    "Alicante": 30,
+    "Alicante": 40,
     "Asturias": 46,
     "Avila": 41,
     "Cadiz": 37,
@@ -40,7 +40,7 @@
   "detalle_por_provincia": {
     "A_Coruna": 46,
     "Albacete": 66,
-    "Alicante": 30,
+    "Alicante": 40,
     "Almeria": 68,
     "Asturias": 46,
     "Avila": 41,
@@ -70,5 +70,5 @@
     "Zamora": 81,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 67.44
+  "progreso_porcentaje": 67.78
 }
