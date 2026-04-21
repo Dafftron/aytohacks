@@ -1,7 +1,7 @@
 {
-  "ultima_actualizacion": "2026-04-08 13:56",
-  "total_emails_enviados": 1840,
-  "provincias_con_envios": 29,
+  "ultima_actualizacion": "2026-04-21 10:06",
+  "total_emails_enviados": 1858,
+  "provincias_con_envios": 30,
   "provincias_completadas": [
     "Albacete",
     "Almeria",
@@ -33,6 +33,7 @@
     "Avila": 41,
     "Cadiz": 37,
     "Soria": 47,
+    "Zamora": 18,
     "Zaragoza": 30
   },
   "detalle_por_provincia": {
@@ -64,7 +65,8 @@
     "Toledo": 74,
     "Valencia": 59,
     "Valladolid": 76,
+    "Zamora": 18,
     "Zaragoza": 30
   },
-  "progreso_porcentaje": 63.6
+  "progreso_porcentaje": 64.22
 }
