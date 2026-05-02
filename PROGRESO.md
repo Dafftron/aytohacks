@@ -1,16 +1,16 @@
 # 📊 PROGRESO DE LA CAMPAÑA AYTOHACKS
 
-**Última actualización:** 29/04/2026 13:11
+**Última actualización:** 02/05/2026 21:35
 
 ---
 
 ## 🎯 RESUMEN GENERAL
 
-- **Total emails enviados:** 2051
+- **Total emails enviados:** 2061
 - **Provincias completadas:** 26
-- **Provincias en progreso:** 6
-- **Provincias pendientes:** 20
-- **Progreso estimado:** 70.9% de España
+- **Provincias en progreso:** 7
+- **Provincias pendientes:** 19
+- **Progreso estimado:** 71.2% de España
 
 ---
 
@@ -45,7 +45,7 @@
 
 ---
 
-## ⏳ PROVINCIAS EN PROGRESO (6)
+## ⏳ PROVINCIAS EN PROGRESO (7)
 
 - **Soria**: 47 emails 🔄
 - **A_Coruna**: 46 emails 🔄
@@ -53,13 +53,14 @@
 - **Avila**: 41 emails 🔄
 - **Cadiz**: 37 emails 🔄
 - **Zaragoza**: 30 emails 🔄
+- **Granada**: 10 emails 🔄
 
 ---
 
 ## 📈 ESTADÍSTICAS
 
 ### Emails por día (estimado)
-- Velocidad actual: ~293 emails/día
+- Velocidad actual: ~294 emails/día
 - Tiempo para completar: ~3 días
 
 ### Top 5 Provincias
