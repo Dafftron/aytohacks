@@ -1,12 +1,12 @@
 # 📊 PROGRESO DE LA CAMPAÑA AYTOHACKS
 
-**Última actualización:** 04/05/2026 11:26
+**Última actualización:** 04/05/2026 11:27
 
 ---
 
 ## 🎯 RESUMEN GENERAL
 
-- **Total emails enviados:** 2216
+- **Total emails enviados:** 2217
 - **Provincias completadas:** 28
 - **Provincias en progreso:** 7
 - **Provincias pendientes:** 17
@@ -54,7 +54,7 @@
 - **Asturias**: 46 emails 🔄
 - **Avila**: 41 emails 🔄
 - **Cadiz**: 37 emails 🔄
-- **Jaen**: 30 emails 🔄
+- **Jaen**: 31 emails 🔄
 - **Zaragoza**: 30 emails 🔄
 
 ---
